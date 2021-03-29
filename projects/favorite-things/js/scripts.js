@@ -6,11 +6,10 @@ $(document).ready(function(){
 
     event.preventDefault();
     
-    
+    $("<li>").html(animal).appendTo(".animal");
     let animalArray=[];
       // animalArray.push(animal);
     animalArray.forEach(function(element){
-      $("<li>").html(animal).appendTo(".animal");
       animalArray.push(element);
     });
     // let carArray=[];
